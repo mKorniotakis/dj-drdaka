@@ -124,6 +124,14 @@ STATIC_ROOT = "website/static/"
 
 STATIC_URL = 'static/'
 
+STORAGES = {
+    # ...
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+    },
+}
+
+
 # STATICFILES_DIRS = [
 #     "bootstrap/assets/"
 # ]
