@@ -130,19 +130,19 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 STATIC_URL = '/static/'
 
-# STORAGES = {
+STORAGES = {
     
-#     "staticfiles": {
-#         "BACKEND": "whitenoise.storage.CompressedStaticFilesStorage",
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
                     
-#     },
-# }
+    },
+}
 
 # STATICFILES_DIRS = (
 #     os.path.join(BASE_DIR, 'website/static'),
 # )
 
-STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
+# STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 
 
 # Default primary key field type
