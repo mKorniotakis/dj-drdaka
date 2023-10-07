@@ -28,7 +28,7 @@ TABLE OF CONTENTS
 /* -------------------------------------------------------
                      Global 
 -------------------------------------------------------- */
-@import url(main.css);
+@import url("main.4f38808524a8.css");
 body {
   font-family: 'Poppins', sans-serif;
   color: #343434;
@@ -54,7 +54,7 @@ body {
   content: '';
   width: 100%;
   height: 30px;
-  background-image: url(../img/dots.png);
+  background-image: url("../img/dots.a8d8f70f26e3.png");
   background-repeat: repeat;
   position: absolute;
   bottom: -10px;
@@ -387,7 +387,7 @@ p {
   position: absolute;
   left: 0px;
   bottom: -30px;
-  background-image: url(../img/dots.png);
+  background-image: url("../img/dots.a8d8f70f26e3.png");
   background-repeat: repeat;
   z-index: -1;
 }

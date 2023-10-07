@@ -21,6 +21,7 @@
 
         <!-- bootstrap css -->
 		<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
 
 		<!-- google fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -82,19 +83,19 @@
 		    </div>
 
 		    <!-- Collect the nav links, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="nav-icon-collapse">
+		    <div class="collapse navbar-collapse navbar-mobile" id="nav-icon-collapse">
 		      
 			  <!-- links -->
 		      <ul class="nav navbar-nav navbar-right">
 		        <li><a href="#" data-scroll-nav="0" class="active">Αρχική</a></li>
-		        	<li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Messages</a>                        
-						<ul>
-							<li><a href="#" class="dropdown-item">Inbox</a></li>
-							<li><a href="#" class="dropdown-item">Drafts</a></li>
-							<li><a href="#" class="dropdown-item">Sent Items</a></li>								
-						</ul>	                       
-                    </li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-scroll-nav="1" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Βιογραφικό</a>                        
+					<ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+						<li><a href="#" class="dropdown-item">Ακαδημαϊκή Σταδιοδρομία</a></li>
+						<li><a href="#" class="dropdown-item">Ερευνητικό Έργο</a></li>
+						<li><a href="#" class="dropdown-item">Συγγραφικό Έργο</a></li>								
+					</ul>	                       
+				</li>
 		        <li><a href="#" data-scroll-nav="2">Services</a></li>
 		        <li><a href="#" data-scroll-nav="3">Works</a></li>
 		        <li><a href="#" data-scroll-nav="4">Clients</a></li>
@@ -755,6 +756,10 @@
 		<!-- font awesome js-->
 		<!-- <script src="{% static 'fontawesomefree/js/all.min.js' %}"></script> -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+
+		<!-- Bootstrap bundle min js-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+
 
     </body>
 </html>
